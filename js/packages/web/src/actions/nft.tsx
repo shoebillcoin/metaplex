@@ -97,13 +97,17 @@ export const mintNFT = async (
 
   const metadataContent = {
     name: metadata.name,
-    symbol: metadata.symbol,
+    symbol: 'SHBL',
     description: metadata.description,
     seller_fee_basis_points: metadata.sellerFeeBasisPoints,
     image: metadata.image,
     animation_url: metadata.animation_url,
     attributes: metadata.attributes,
-    external_url: metadata.external_url,
+    collection: {
+      'name': 'Shoebill Test',
+      'family': 'Shoebillcoin',
+    },
+    external_url: 'https://shoebillco.in/',
     properties: {
       ...metadata.properties,
       creators: metadata.creators?.map(creator => {
