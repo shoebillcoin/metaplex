@@ -104,7 +104,7 @@ export const mintNFT = async (
     animation_url: metadata.animation_url,
     attributes: metadata.attributes,
     collection: {
-      'name': 'Shoebill Test',
+      'name': 'Shoebill TW Street Food #1',
       'family': 'Shoebillcoin',
     },
     external_url: 'https://shoebillco.in/',
