@@ -38,7 +38,7 @@ export const SalesListView = () => {
     <>
       <Banner
         src="/main-banner.svg"
-        headingText="Be careful, each transaction will cost extra ~0.02 SOL."
+        headingText="TW Wild Animal NFT on sale, each mint will cost extra 0.02 SOL to Metaplex."
         subHeadingText="Shoebill NFT market."
         actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
         useBannerBg
