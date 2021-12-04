@@ -104,7 +104,7 @@ export const mintNFT = async (
     animation_url: metadata.animation_url,
     attributes: metadata.attributes,
     collection: {
-      'name': 'Shoebill TW Wild Animal #1',
+      'name': 'Shoebill x Formosa Wildlife Conservation Day',
       'family': 'Shoebillcoin',
     },
     external_url: 'https://shoebillco.in/',
